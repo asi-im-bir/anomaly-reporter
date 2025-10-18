@@ -51,13 +51,16 @@ Common challenges include:
 This tool creates a continuous **Detect → Reason → Report** loop.
 
 ```mermaid
+
 flowchart TD
     A[Access Logs (CSV)] --> B[Python Script: anomaly_detector.py]
     B --> C[Statistical + After-Hours Detection]
     C --> D[final_risk_data_for_claude.txt]
     D --> E[Claude AI Reasoning Engine]
     E --> F[Executive Management Report]
+
 ⚙️ How It Works
+
 1️⃣ Data Input
 Place your access log file in the project directory:
 
@@ -69,6 +72,7 @@ UserID,SystemAccessed,AccessTime
 U001,ERP_Prod,2025-10-25 23:05:00
 U003,S3_Bucket_Fin,2025-10-26 01:45:00
 U004,CRM,2025-10-25 15:00:00
+
 2️⃣ Python Detection Script
 File: anomaly_detector.py
 
