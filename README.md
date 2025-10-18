@@ -49,7 +49,7 @@ Common challenges include:
 
 The system is designed as a simple, powerful pipeline connecting raw data to final executive insights.
 
-```mermaid
+
 flowchart TD
     A[Access Logs (CSV)] --> B{Python Script: anomaly_detector.py};
     B --> C[Statistical + After-Hours Detection];
