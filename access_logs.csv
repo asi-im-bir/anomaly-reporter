@@ -1,0 +1,17 @@
+UserID,AccessTime,SystemAccessed,AccessType
+U001,2025-10-25 09:15:00,ERP_Prod,Read
+U002,2025-10-25 10:40:00,Jira_Dev,Login
+U003,2025-10-25 14:00:00,S3_Bucket_Fin,Read
+U004,2025-10-25 15:30:00,AD_Domain_Ctrl,Admin
+U005,2025-10-25 11:00:00,Sys_A,Login
+U005,2025-10-25 11:05:00,Sys_B,Login
+U005,2025-10-25 11:10:00,Sys_C,Login
+U005,2025-10-25 11:15:00,Sys_D,Login
+U001,2025-10-25 23:05:00,ERP_Prod,Admin # Anomaly: After Hours
+U003,2025-10-26 01:45:00,S3_Bucket_Fin,Write # Anomaly: Deep Night
+U002,2025-10-26 09:00:00,ERP_Prod,Read
+U004,2025-10-26 10:30:00,Jira_Dev,Read
+U005,2025-10-26 14:00:00,Sys_E,Login
+U005,2025-10-26 14:05:00,Sys_F,Login
+U005,2025-10-26 14:10:00,Sys_G,Login
+U005,2025-10-26 14:15:00,Sys_H,Login

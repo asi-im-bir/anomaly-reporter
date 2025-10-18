@@ -1,0 +1,18 @@
+
+--- WEEKLY LOGICAL ACCESS ANOMALY REPORT DATA ---
+
+1. HIGH STATISTICAL RISK FINDINGS (Users above 2x Standard Deviation threshold: 8.70 systems):
+Users: None detected
+Detail: User(s)  accessed a statistically anomalous number of unique systems in a short period. This indicates potential credential compromise or excessive privilege usage.
+
+2. AFTER-HOURS ACCESS INCIDENTS (Outside 08:00-18:00):
+UserID          AccessTime SystemAccessed
+  U001 2025-10-25 23:05:00       ERP_Prod
+  U003 2025-10-26 01:45:00  S3_Bucket_Fin
+
+3. NORMALIZATION CONTEXT:
+Average number of unique systems accessed per user: 2.80
+
+--- BUSINESS & COMPLIANCE CONTEXT FOR AI ---
+1. Primary GRC Risk: Logical Access Control Failure (ISO 27001 A.5.15) and Insider Threat.
+2. Regulatory Focus: Need to demonstrate Continuous Monitoring and strong access controls for NIS2 compliance.
