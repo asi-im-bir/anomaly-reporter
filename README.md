@@ -51,7 +51,8 @@ The system is designed as a simple, powerful pipeline connecting raw data to fin
 
 
 flowchart TD
-    A[Access Logs (CSV)] --> B{Python Script: anomaly_detector.py};
+
+    A [Access Logs (CSV)] --> B{Python Script: anomaly_detector.py};
     B --> C[Statistical + After-Hours Detection];
     C --> D[final_risk_data_for_claude.txt];
     D --> E{Claude AI Reasoning Engine};
