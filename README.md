@@ -50,8 +50,6 @@ Common challenges include:
 
 This tool creates a continuous **Detect → Reason → Report** loop.
 
-```mermaid
-
 flowchart TD
     A[Access Logs (CSV)] --> B[Python Script: anomaly_detector.py]
     B --> C[Statistical + After-Hours Detection]
